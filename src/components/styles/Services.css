@@ -1,0 +1,50 @@
+.section-content {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.section-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.services-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.services-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.services-table tr:last-child td {
+  border-bottom: none;
+}
+
+.services-table td:first-child {
+  border-left: none;
+}
+
+.services-table td:last-child {
+  border-right: none;
+}
+
+.services-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.services-table td:first-child {
+  text-align: left;
+}
+
+.services-table td:last-child {
+  text-align: right;
+}
+
+.services-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
